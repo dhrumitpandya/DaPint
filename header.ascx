@@ -22,7 +22,7 @@
 						<ul class="nav navbar-nav">
 							<li><a href="index.aspx" class="hvr-sweep-to-bottom">Home</a></li>
 							<li><a href="about.aspx" class="hvr-sweep-to-bottom">About</a></li>
-							<li class="active"><a href="products.aspx" class="hvr-sweep-to-bottom">Products</a></li>
+							<li><a href="products.aspx" class="hvr-sweep-to-bottom">Products</a></li>
 							<li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Codes<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a class="hvr-sweep-to-bottom" href="icons.html">Icons</a></li>
