@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
-
+<%@ Register src="header.ascx" tagName="Header" TagPrefix="uc"%>
+<%@ Register src="footer.ascx" tagName="Footer" TagPrefix="uc"%>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -37,37 +38,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
    <!-- header -->
-	<div class="header">
-		<div class="container">
-			<nav class="navbar navbar-default">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-					<div class="w3layouts-logo">
-						<h1><a href="index.aspx">Da Pint<span></span></a></h1>
-					</div>
-				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-					<nav>
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="index.aspx">Home</a></li>
-							<li><a href="about.aspx" class="hvr-sweep-to-bottom">About</a></li>
-							<li><a href="products.aspx" class="hvr-sweep-to-bottom">Products</a></li>
-							<li><a href="mail.html" class="hvr-sweep-to-bottom">Mail Us</a></li>
-						</ul>
-					</nav>
-				</div>
-				<!-- /.navbar-collapse -->
-			</nav>
-		</div>
-	</div>
+	<uc:Header runat="server" />
 	<!-- //header -->
 	<!-- banner -->
 	<div class="banner">
@@ -227,48 +198,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //blog -->
 	<!-- footer -->
-	<div class="footer">
-		<div class="container">
-			<div class="agileinfo_footer_grids">
-				<div class="col-md-4 agileinfo_footer_grid">
-					<div class="agile-logo">
-						<h4><a href="index.html">Da Pint <span></span></a></h4>
-					</div>
-					<p>Etiam condimentum mi nec tortor euismod, id lobortis odio dictum. Cras 
-						suscipit elit eget mi volutpat facilisis.</p>
-					<div class="agileinfo-social-grids">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							<li><a href="#"><i class="fa fa-vk"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-4 agileinfo_footer_grid">
-					<h3>Contact Info</h3>
-					<ul class="agileinfo_footer_grid_list">
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
-					</ul>
-				</div>
-				<div class="col-md-4 agileinfo_footer_grid">
-					<h3>Navigation</h3>
-					<ul class="agileinfo_footer_grid_nav">
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="index.aspx">Home</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="about.aspx">About Us</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="products.aspx">Products</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="mail.html">Mail Us</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="w3agile_footer_copy">
-				<p>&copy; 2017 Da Pint. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-			</div>
-		</div>
-	</div>
+	<uc:Footer runat="server" />
 	<!-- //footer -->
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>

@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="mail.aspx.cs" Inherits="mail" %>
-
+<%@ Register src="header.ascx" tagName="Header" TagPrefix="uc"%>
+<%@ Register src="footer.ascx" tagName="Footer" TagPrefix="uc"%>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -27,12 +28,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/bootstrap.js"></script>
 <script src="js/SmoothScroll.min.js"></script>
 <script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+    });
 </script>
 
 </head>
@@ -40,43 +41,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <form id="form1" runat="server">
     <div>
     <!-- header -->
-	<div class="header">
-		<div class="container">
-			<nav class="navbar navbar-default">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-					<div class="w3layouts-logo">
-						<h1><a href="index.html">Da Pint </a></h1>
-					</div>
-				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-					<nav>
-						<ul class="nav navbar-nav">
-							<li><a href="index.html" class="hvr-sweep-to-bottom">Home</a></li>
-							<li><a href="about.html" class="hvr-sweep-to-bottom">About</a></li>
-							<li><a href="gallery.html" class="hvr-sweep-to-bottom">Gallery</a></li>
-							<li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Codes<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a class="hvr-sweep-to-bottom" href="icons.html">Icons</a></li>
-									<li><a class="hvr-sweep-to-bottom" href="typography.html">Typography</a></li>          
-								</ul>
-							</li>
-							<li class="active"><a href="mail.html" class="hvr-sweep-to-bottom">Mail Us</a></li>
-						</ul>
-					</nav>
-				</div>
-				<!-- /.navbar-collapse -->
-			</nav>
-		</div>
-	</div>
+	<uc:Header runat="server" />
 	<!-- //header -->
 	<!-- banner -->
 	<div class="banner about-banner">
@@ -124,56 +89,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //contact -->
 	<!-- footer -->
-	<div class="footer">
-		<div class="container">
-			<div class="agileinfo_footer_grids">
-				<div class="col-md-4 agileinfo_footer_grid">
-					<div class="agile-logo">
-						<h4><a href="index.html">Da Pint </a></h4>
-					</div>
-					<p>Etiam condimentum mi nec tortor euismod, id lobortis odio dictum. Cras 
-						suscipit elit eget mi volutpat facilisis.</p>
-					<div class="agileinfo-social-grids">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							<li><a href="#"><i class="fa fa-vk"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-4 agileinfo_footer_grid">
-					<h3>Contact Info</h3>
-					<ul class="agileinfo_footer_grid_list">
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1385 Woodroffe Ave, Nepean, <span> Ottawa ON K2G 1V8</span></li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:inbox@inboxcommunications.com">inbox@inboxcommunications.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
-					</ul>
-				</div>
-				<div class="col-md-4 agileinfo_footer_grid">
-					<h3>Navigation</h3>
-					<ul class="agileinfo_footer_grid_nav">
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="index.html">Home</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="about.html">About Us</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="gallery.html">Gallery</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="typography.html">Typography</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="icons.html">Icons</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="mail.html">Mail Us</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="w3agile_footer_copy">
-				<p>&nbsp;</p>
-			</div>
-		</div>
-	</div>
+	<uc:Footer runat="server" />
 	<!-- //footer -->
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
-		$(document).ready(function() {
+        $(document).ready(function () {
 			/*
 				var defaults = {
 				containerID: 'toTop', // fading element id
@@ -182,10 +104,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				easingType: 'linear' 
 				};
 			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
 	</script>
 <!-- //here ends scrolling icon -->
 
