@@ -5,7 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Farming Company an Agriculture Category Flat Bootstrap responsive Website Template | Gallery :: w3layouts</title>
+    <title>Product Page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Farming Company Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -184,7 +184,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="js/lightbox-plus-jquery.min.js"> </script>
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
-	<!-- here stars scrolling icon -->
+	<!-- here starts scrolling icon -->
 	<script type="text/javascript">
         $(document).ready(function () {
 			/*
@@ -199,6 +199,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             $().UItoTop({ easingType: 'easeOutQuart' });
 
         });
+        //change label
+        lightbox.option({
+            'disableScrolling': true,
+            'albumLabel': "Product %1 of %2",
+        })
 	</script>
 <!-- //here ends scrolling icon -->
     </form>

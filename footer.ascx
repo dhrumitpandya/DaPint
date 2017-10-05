@@ -5,7 +5,7 @@
 			<div class="agileinfo_footer_grids">
 				<div class="col-md-4 agileinfo_footer_grid">
 					<div class="agile-logo">
-						<h4><a href="index.html">Farming <span>Company</span></a></h4>
+						<h4><a href="index.html">DA PINT<span>Craft Beer</span></a></h4>
 					</div>
 					<p>Etiam condimentum mi nec tortor euismod, id lobortis odio dictum. Cras 
 						suscipit elit eget mi volutpat facilisis.</p>
@@ -40,7 +40,7 @@
 				<div class="clearfix"> </div>
 			</div>
 			<div class="w3agile_footer_copy">
-				<p>&copy; 2017 Farming Company. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+				<p>&copy; 2017 Da Pint. All rights reserved | Design template by <a href="http://w3layouts.com/">W3layouts</a></p>
 			</div>
 		</div>
 	</div>

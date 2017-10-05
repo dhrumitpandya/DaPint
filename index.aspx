@@ -48,21 +48,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul class="slides">
 							<li>	
 								<div class="banner_text">
-									<h3>Lorem ipsum dolor sit</h3>
+									<h3>Canada's Premiere Craft Beer Collection.</h3>
 									<div class="w3ls-line"> </div>
 									<p>Da Pint</p>
 									<div class="w3-button">
-										<a href="single.html" class="btn btn-1 btn-1b">Read More</a>
+										<a href="products.aspx" class="btn btn-1 btn-1b">SHOP NOW</a>
 									</div>
 								</div>
 							</li>
 							<li>	
 								<div class="banner_text">
-									<h3>Nam semper nisi enim</h3>
+									<h3>From Breweries Canada-Wide.</h3>
 									<div class="w3ls-line"> </div>
 									<p>Da Pint</p>
 									<div class="w3-button">
-										<a href="single.html" class="btn btn-1 btn-1b">Read More</a>
+										<a href="single.html" class="btn btn-1 btn-1b">Learn More</a>
 									</div>
 								</div>
 							</li>
@@ -155,7 +155,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="blog">
 		<div class="container">
 			<div class="services-heading">
-				<h3>Our Blog</h3>
+				<h3>Recent Blogs</h3>
 				<div class="agileits-line"> </div>
 			</div>
 			<div class="agileinfo-blog-grids">
