@@ -32,10 +32,6 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 .header {
     background: #212121;
 }
-.cart {
-    position: absolute;
-    right: 10px;
-}
 .cart-icon {
     color: lightgoldenrodyellow;
 }
