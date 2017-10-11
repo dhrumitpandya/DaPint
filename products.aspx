@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
     <form id="form1" runat="server">
-        <!-- header -->
+    <!-- header -->
         <uc:Header runat="server" />
 	<!-- //header -->
 	<!-- banner -->
@@ -187,15 +187,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- here starts scrolling icon -->
 	<script type="text/javascript">
         $(document).ready(function () {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-
+		
             $().UItoTop({ easingType: 'easeOutQuart' });
 
         });
