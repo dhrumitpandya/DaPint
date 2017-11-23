@@ -459,6 +459,46 @@ ul.dropdown-menu {
     margin: 1em 0 0 0;
 }
 /*-- //blog --*/
+/*-- login --*/
+.login-page {
+    min-height: 0 !important;
+    text-align: center;
+    background: url(../images/wheat.jpg) no-repeat center center fixed;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    -ms-background-size: cover !important;
+}
+.login-overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0.5;
+}
+.login-container {
+    padding-top: px;
+    padding-bottom: 15px;
+    width: 300px;
+    margin: 200px auto;
+    background-color: black;
+    border-radius: 5px;
+}
+.login-header {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.login-container input, .login-container button {
+    display: block;
+    width: 100%
+}   
+.login-container button:nth-of-type(2) {
+    margin-top: 6px;       
+}
 /*-- footer --*/
 .footer{
     background: #191d20;
@@ -1845,9 +1885,9 @@ h2.typoh2{
 	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
 		background: none;
 	}
-	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-		background-color: #aebe27;
-	}
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        background-color: #fcbf32;
+    }
 	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 		margin: 0;
 	}
