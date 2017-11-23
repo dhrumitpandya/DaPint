@@ -151,52 +151,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //services-bottom -->
-	<!-- blog -->
-	<div class="blog">
-		<div class="container">
-			<div class="services-heading">
-				<h3>Recent Blogs</h3>
-				<div class="agileits-line"> </div>
-			</div>
-			<div class="agileinfo-blog-grids">
-				<div class="col-md-4 wthree-blog">
-					<div class="w3-agileits-blog">
-						<div class="w3-agileits-blog-img">
-							<a href="single.aspx"><img src="images/5.jpg" alt="" /></a>
-						</div>
-						<div class="w3-agileits-blog-text">
-							<a href="single.aspx">Fusce nec quam vulputate</a>
-							<p>Nunc vitae tempor dolor, sed euismod mauris. Vivamus ornare convallis tincidunt. Morbi orci leo, vulputate et aliquam nec, pulvinar sed nibh.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 wthree-blog">
-					<div class="w3-agileits-blog">
-						<div class="w3-agileits-blog-img">
-							<a href="single.aspx"><img src="images/5.jpg" alt="" /></a>
-						</div>
-						<div class="w3-agileits-blog-text">
-							<a href="single.aspx">Interdum et malesuada</a>
-							<p>Nunc vitae tempor dolor, sed euismod mauris. Vivamus ornare convallis tincidunt. Morbi orci leo, vulputate et aliquam nec, pulvinar sed nibh.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 wthree-blog">
-					<div class="w3-agileits-blog">
-						<div class="w3-agileits-blog-img">
-							<a href="single.aspx"><img src="images/5.jpg" alt="" /></a>
-						</div>
-						<div class="w3-agileits-blog-text">
-							<a href="single.aspx">Vivamus ornare convallis</a>
-							<p>Nunc vitae tempor dolor, sed euismod mauris. Vivamus ornare convallis tincidunt. Morbi orci leo, vulputate et aliquam nec, pulvinar sed nibh.</p>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //blog -->
+	
 	<!-- footer -->
 	<uc:Footer runat="server" />
 	<!-- //footer -->
