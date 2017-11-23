@@ -28,7 +28,7 @@
 							<li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Register/Login<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a class="hvr-sweep-to-bottom" href="login.aspx">Login</a></li>
-									<li><a class="hvr-sweep-to-bottom" href="typography.html">Register</a></li>          
+									<li><a class="hvr-sweep-to-bottom" href="accountType.aspx">Register</a></li>          
 								</ul>
 							</li>
                             <li class="cart"><a href="mail.aspx" class="hvr-sweep-to-bottom"><i class="fa fa-shopping-cart cart-icon"></i> CART(#)</a></li>

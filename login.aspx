@@ -20,12 +20,22 @@
 					</div>
             <input placeholder="username" name="username"/>
             <input placeholder="password" type="password" name="password"/>
-            <button class="btn-primary">Login</button>
+            <asp:Button 
+  ID="Login" 
+  PostBackUrl="~/index.aspx"
+  runat="server"
+  CssClass="btn-primary"
+  Text="Login" />
             <div>
                 <p style="position:relative; top: 1px; display:inline-block; text-align:left; width:150px;font-size:11px; color: aquamarine";">forgot password?</p>
                 <p style="font-size:11px; display:inline-block; position:relative; top: 1px;color:aquamarine;">remember me</p><input class="checkbox-inline" style="display:inline-block; width: 20px;" type="checkbox"/>
             </div>
-            <button class="btn-primary">Create Account</button>
+<asp:Button 
+  ID="CreateAccount" 
+  PostBackUrl="~/accountType.aspx"
+  runat="server"
+  CssClass="btn-primary"
+  Text="Create Account" />
         </div>
     </form>
 </body>
