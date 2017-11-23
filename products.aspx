@@ -38,7 +38,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form" runat="server">
     <!-- header -->
         <uc:Header runat="server" />
 	<!-- //header -->
