@@ -5,7 +5,7 @@
 			<div class="agileinfo_footer_grids">
 				<div class="col-md-4 agileinfo_footer_grid">
 					<div class="agile-logo">
-						<h4><a href="index.html">DA PINT<span>Craft Beer</span></a></h4>
+						<h4><a href="index.aspx">DA PINT<span>Craft Beer</span></a></h4>
 					</div>
 					<p>Etiam condimentum mi nec tortor euismod, id lobortis odio dictum. Cras 
 						suscipit elit eget mi volutpat facilisis.</p>
@@ -29,12 +29,10 @@
 				<div class="col-md-4 agileinfo_footer_grid">
 					<h3>Navigation</h3>
 					<ul class="agileinfo_footer_grid_nav">
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="index.html">Home</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="about.html">About Us</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="gallery.html">Gallery</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="typography.html">Typography</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="icons.html">Icons</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="mail.html">Mail Us</a></li>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="index.aspx">Home</a></li>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="about.aspx">About Us</a></li>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="gallery.aspx">Products</a></li>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="mail.aspx">Contact Us</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
