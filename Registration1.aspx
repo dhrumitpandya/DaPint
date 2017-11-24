@@ -1,4 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Registration1.aspx.cs" Inherits="Registration1" %>
+﻿<%@ Register Src="header.ascx" tagName="Header" TagPrefix="uc"%>
+<%@ Register Src="footer.ascx" tagName="Footer" TagPrefix="uc"%>
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Registration1.aspx.cs" Inherits="Registration1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style type="text/css">
@@ -14,13 +16,16 @@
             width: 1247px;
             height: 28px;
         }
+        .auto-style6 {
+        height: 24px;
+    }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
- 
+<body>
     <table cellpadding="2" cellspacing="3" class="auto-style1">
         <tr>
-            <td colspan="3" class="auto-style5">Sign Up for Your New Account</td>
+            <td align="center" colspan="3" class="auto-style5">Sign Up for Your New Account</td>
         </tr>
         <tr>
             <td class="auto-style4">
@@ -32,6 +37,18 @@
                             <asp:Label ID="lblerror" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Red" Text="Label" Visible="False"></asp:Label>
                         </td>
                         <td style="width: 80px; height: 24px;"></td>
+                    </tr>
+                    <tr>
+                        <td align="center" width="45%" class="auto-style6" colspan="4">
+                            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Registration]"></asp:SqlDataSource>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="height: 24px" width="45%">&nbsp;</td>
+                        <td style="width: 20px; height: 24px;">&nbsp;</td>
+                        <td style="height: 24px" width="45%">
+                            &nbsp;</td>
+                        <td style="width: 80px; height: 24px;">&nbsp;</td>
                     </tr>
                     <tr>
                         <td align="center">
@@ -185,6 +202,29 @@
                     </tr>
                 </table>
     </table>
- 
+    <!-- footer -->
+	<uc:Footer runat="server" />
+	<!-- //footer -->
+	<script src="js/lightbox-plus-jquery.min.js"> </script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here starts scrolling icon -->
+	<script type="text/javascript">
+        $(document).ready(function () {
+		
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+        //change label
+        lightbox.option({
+            'disableScrolling': true,
+            'albumLabel': "Product %1 of %2",
+        })
+	</script>
+<!-- //here ends scrolling icon -->
+
+
+</body> 
 </asp:Content>
+
 

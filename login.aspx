@@ -18,21 +18,21 @@
             <div class="login-header">
 						<h2><a href="index.aspx">DA PINT LOGIN</a></h2>
 					</div>
-            <input placeholder="username" name="username"/>
+            <input placeholder="emailid" name="emailid"/>
             <input placeholder="password" type="password" name="password"/>
             <asp:Button 
   ID="Login" 
   PostBackUrl="~/index.aspx"
   runat="server"
   CssClass="btn-primary"
-  Text="Login" />
+  Text="Login" OnClick="Login_Click" />
             <div>
                 <p style="position:relative; top: 1px; display:inline-block; text-align:left; width:150px;font-size:11px; color: aquamarine";">forgot password?</p>
                 <p style="font-size:11px; display:inline-block; position:relative; top: 1px;color:aquamarine;">remember me</p><input class="checkbox-inline" style="display:inline-block; width: 20px;" type="checkbox"/>
             </div>
 <asp:Button 
   ID="CreateAccount" 
-  PostBackUrl="~/accountType.aspx"
+  PostBackUrl="~/Registration.aspx"
   runat="server"
   CssClass="btn-primary"
   Text="Create Account" />

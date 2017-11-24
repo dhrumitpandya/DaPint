@@ -14,7 +14,7 @@ public partial class Registration1 : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        con = new SqlConnection("Data Source=.\\SQLEXPRESS;AttachDbFilename=|DataDirectory|\\Database.mdf;Integrated Security=True;User Instance=True");
+        con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DaPint.mdf;Integrated Security=True");
         con.Open();
     }
 
@@ -22,7 +22,7 @@ public partial class Registration1 : System.Web.UI.Page
     {
         try
         {
-            s = "insert into Registration values('" + txtfname.Text + "','" + txtlname.Text + "','" + txtregphno.Text + "','" + txtemailid.Text + "','" + txtpass.Text + "','" + DropDownList1.SelectedItem + "','" + txtans.Text + "', '"+RadioButtonList1.SelectedIndex+"', '"+TextBox1.Text+"','"+TextBox2.Text+"','"+TextBox3.Text+"')"; 
+            s = "insert into Registration values('" + txtfname.Text + "','" + txtlname.Text + "','" + txtregphno.Text + "','" + txtemailid.Text + "','" + txtpass.Text + "','" + txtCpass.Text + "','" + DropDownList1.SelectedItem + "','" + txtans.Text + "', '"+RadioButtonList1.SelectedIndex+"', '"+TextBox1.Text+"','"+TextBox2.Text+"','"+TextBox3.Text+"')"; 
             cmd = new SqlCommand(s, con);
             cmd.ExecuteNonQuery();
             Response.Redirect("login.aspx");
