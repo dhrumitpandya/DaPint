@@ -31,14 +31,14 @@
 					<ul class="agileinfo_footer_grid_nav">
 						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="index.aspx">Home</a></li>
 						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="about.aspx">About Us</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="gallery.aspx">Products</a></li>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="product.aspx">Products</a></li>
 						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="mail.aspx">Contact Us</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="w3agile_footer_copy">
-				<p>&copy; 2017 Da Pint. All rights reserved | Design template by <a href="http://w3layouts.com/">W3layouts</a></p>
+				<p>&copy; 2017 Da Pint. All rights reserved | Design template by Bug Masters</p>
 			</div>
 		</div>
 	</div>
