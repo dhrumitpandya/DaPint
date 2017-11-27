@@ -5,7 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>ADD Product Page | DaPint</title>
+    <title>ADD 1 Product Page | DaPint</title>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="DaPint, Beer, Craft, Brewery, Bottle, Light, Strong" />
