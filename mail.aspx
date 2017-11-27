@@ -56,12 +56,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="contact-grids">
 				<div class="col-md-7 contact-form">
-					<form action="#" method="post">
-						<input type="text" name="Name" placeholder="Name" required="">
-						<input type="email" class="email" name="Email" placeholder="Email" required="">
-						<textarea placeholder="Message" name="Message" required=""></textarea>
-						<input type="submit" value="SUBMIT">
-					</form>
+					</div>
+						<input type="text" name="Name" placeholder="Name" required="" id="txtname">
+						<input type="email" class="email" name="Email" placeholder="Email" required="" id="txtemail">
+						<textarea placeholder="Message" name="Message" required="" id="txtcmnt"></textarea>&nbsp;
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="SUBMIT" />
+&nbsp;</form>
 				</div>
 				<div class="col-md-4 contact-right">
 					<div class="contact-text">

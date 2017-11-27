@@ -5,7 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-   <title>Da Pint an Agriculture Category Flat Bootstrap responsive Website Template | Home :: w3layouts</title>
+   <title>Da Pint| Home :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Da Pint Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -62,7 +62,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<div class="w3ls-line"> </div>
 									<p>Da Pint</p>
 									<div class="w3-button">
-										<a href="single.html" class="btn btn-1 btn-1b">Learn More</a>
+										<a href="single.aspx" class="btn btn-1 btn-1b">Learn More</a>
 									</div>
 								</div>
 							</li>
@@ -99,8 +99,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-6 services-grid-left">
 							<div class="services-icon"><i class="fa fa-envira" aria-hidden="true"></i></div> 
 							<div class="services-text">
-								<h4>Nunc vitae temporg</h4>
-								<p>Pellentesque non nibh ante. Cras hendrerit finibus eros eget elementum.</p>
+								<h4>Header Title</h4>
+								<p>Body section</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -133,7 +133,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="clearfix"> </div>
 						</div>
 						<div class="col-md-6 services-grid-right">
-							<img src="images/6.jpg" alt="" />
+							<img src="images/3.jpg" alt="" />
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -151,52 +151,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //services-bottom -->
-	<!-- blog -->
-	<div class="blog">
-		<div class="container">
-			<div class="services-heading">
-				<h3>Recent Blogs</h3>
-				<div class="agileits-line"> </div>
-			</div>
-			<div class="agileinfo-blog-grids">
-				<div class="col-md-4 wthree-blog">
-					<div class="w3-agileits-blog">
-						<div class="w3-agileits-blog-img">
-							<a href="single.html"><img src="images/7.jpg" alt="" /></a>
-						</div>
-						<div class="w3-agileits-blog-text">
-							<a href="single.html">Fusce nec quam vulputate</a>
-							<p>Nunc vitae tempor dolor, sed euismod mauris. Vivamus ornare convallis tincidunt. Morbi orci leo, vulputate et aliquam nec, pulvinar sed nibh.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 wthree-blog">
-					<div class="w3-agileits-blog">
-						<div class="w3-agileits-blog-img">
-							<a href="single.html"><img src="images/8.jpg" alt="" /></a>
-						</div>
-						<div class="w3-agileits-blog-text">
-							<a href="single.html">Interdum et malesuada</a>
-							<p>Nunc vitae tempor dolor, sed euismod mauris. Vivamus ornare convallis tincidunt. Morbi orci leo, vulputate et aliquam nec, pulvinar sed nibh.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 wthree-blog">
-					<div class="w3-agileits-blog">
-						<div class="w3-agileits-blog-img">
-							<a href="single.html"><img src="images/9.jpg" alt="" /></a>
-						</div>
-						<div class="w3-agileits-blog-text">
-							<a href="single.html">Vivamus ornare convallis</a>
-							<p>Nunc vitae tempor dolor, sed euismod mauris. Vivamus ornare convallis tincidunt. Morbi orci leo, vulputate et aliquam nec, pulvinar sed nibh.</p>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //blog -->
+	
 	<!-- footer -->
 	<uc:Footer runat="server" />
 	<!-- //footer -->

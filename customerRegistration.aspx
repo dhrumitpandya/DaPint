@@ -27,10 +27,5 @@
             <div class="form-group">
                 <input class="form-control" type="password" name="confirmPassword" placeholder="confirm password"/>
             </div>
-            <div class="form-group">
-                <button class="btn btn-primary btn-block" type="submit" value="RegisterServlet">Submit</button>
-            </div>
-            </div>
-    </form>
 </body>
 </html>
